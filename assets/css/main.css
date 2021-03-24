@@ -12,6 +12,7 @@
   --red: #f03e3d;
   --light-yellow: #fab005;
   --blue: #4dadf7;
+  --greyblue: #bcd0e5;
 }
 .bg-purple {
   background-color: var(--purple);
@@ -194,4 +195,39 @@ p.sm-title {
   border: 1px solid var(--yellow);
   z-index: -1;
   border-radius: 15px;
+}
+
+/*===========================
+    Footer css 
+===========================*/
+
+footer {
+  border-top: 1px solid var(--greyblue);
+}
+
+.links {
+  padding-left: 0;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.links li a {
+  color: var(--brown);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-head {
+  font-family: "Gotham-Bold", "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#footer-input {
+  font-size: 14px;
+  border-color: var(--greyblue);
+  color: var(--greyblue);
+  max-width: 325px;
 }
